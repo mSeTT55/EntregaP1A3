@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/imgs/img-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+/*Aqui começa o menu superior*/
+
+.menu-superior {
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-superior>div {
+    width: 50%;
+    height: 100%;
+
+}
+
+.img-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-text>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    position: relative;
+    width: 12vw;
+    top: 5%;
+}
+
+.text-direita {
+    padding-right: 40%;
+}
+
+.direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.direita>p {
+    text-decoration: none;
+    font-family: 'Graduate', cursive;
+    font-style: normal;
+    font-size: 30px;
+    outline: none;
+    line-height: 1.5;
+    color: #FFFFFF;
+
+}
+
+
+/*Aqui termina o menu superior*/
+
+/*-------------------------------------------------------------------------------*/
+
+.BoxCadastro {
+    width: 90vw;
+    height: 100vh;
+
+
+    background: rgba(31, 27, 44, 0.8);
+    border-radius: 15px;
+    margin-left: 70px;
+    padding-top: 50px;
+
+
+}
+
+
+
+.dados_p {
+
+    text-decoration: none;
+    font-family: 'Baloo Thambi 2';
+    font-style: normal;
+    font-size: 32px;
+    outline: none;
+    line-height: 1.5;
+    color: #16FC92;
+    margin-left: 130px;
+
+}
+
+.esquerda-form-cadastro {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.esquerda-form-cadastro>input {
+    width: 35vw;
+    padding: 8px;
+    margin: 6px;
+    border-radius: 10px;
+    border-color: #16FC92;
+    border-width: 2px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #514769;
+    font-size: 15px;
+    font-family: 'Baloo Thambi 2', cursive;
+    outline: none;
+}
+
+
+
+.termo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    width: 40vw;
+    height: 70px;
+    margin-top: 24px;
+    font-family: 'Baloo Thambi 2';
+}
+
+.texttermo {
+    color: #FFFFFF;
+    margin-left: 12px;
+
+}
+
+.tem-conta-conect p {
+
+    left: 355px;
+    top: 591px;
+
+    font-family: 'Baloo Thambi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.tem-conta-conect {
+    margin-left: 300px;
+}
+
+.tem-conta-conect a {
+
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16FC92;
+}
+
+.bt {
+
+    width: 328px;
+    height: 41px;
+    margin-top: 26px;
+    background: #16FC92;
+    border-radius: 8px;
+    font-family: 'Baloo Thambi 2';
+    font-size: 20px;
+
+}
+
+
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:960px) {
+   
+    .BoxCadastro {
+        width: 80vw;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .esquerda-form-cadastro>input {
+        width: 20em;
+        
+    }
+    .tem-conta-conect {
+        margin-left: 100px;
+    }
+    .dados_p{
+        margin-right: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .termo{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        width: auto;
+    }
+    .bt{
+        width: 12vw;
+        font-size: 12px;
+    }
+}

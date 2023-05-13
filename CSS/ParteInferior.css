@@ -1,0 +1,8 @@
+/*Aqui fica a parte inferior da tela*/
+
+
+.conteudo-principal-lista{
+    display: block;
+    width: 100%;
+    height: 88vh;
+}
