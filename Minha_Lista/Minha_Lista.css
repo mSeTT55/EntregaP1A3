@@ -77,22 +77,40 @@
 }
 
 
-/*Itens da direita Desejo Assistir------------------------------------------------------*/
+/*Itens dentro de Desejo Assistir------------------------------------------------------*/
 
 
 .direita-itens-desejo-assistir{
     width: 85%;
     height: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     padding: 1em 0 1em 0;
 }
 
+
+/*Itens dentro de Visto------------------------------------------------------*/
+
+
+.direita-itens-visto{
+    width: 85%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+
+
+/*Itens dentro Design dos itens do direita------------------------------------------------------*/
+
+
 .item{
     all: unset;
     width: 70vw;
-    height: 8vh;
+    height: 11vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,11 +149,22 @@
     width: 15vw;
 }
 
+.lixeira{
+    align-items: center;
+}
+
+.lixeira > img{
+    width:  50px;
+    height: 50px;
+    cursor: pointer;
+}
+
 .item > div > p{
     margin: 0;
     color: #FFFFFF;
     font-family: Graduate;
     font-size: 22px;
+    margin-bottom: 5px;
 }
 
 .item > div > .verde{
@@ -143,6 +172,7 @@
     font-size: 14px;
     
 }
+
 
 /**/
 
