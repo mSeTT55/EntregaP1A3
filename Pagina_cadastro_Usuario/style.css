@@ -45,18 +45,21 @@ body {
     flex-direction: row;
 }
 
-.menu-superior>div {
-    width: 50%;
-    height: 100%;
-
-}
-
 .img-text {
     display: flex;
+    width: 50%;
     flex-direction: row;
 }
 
-.img-text>div {
+.img-esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-direita {
     width: 50%;
     height: 100%;
     display: flex;
@@ -76,6 +79,7 @@ body {
 
 .direita {
     display: flex;
+    width: 50%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -101,8 +105,6 @@ body {
 .BoxCadastro {
     width: 90vw;
     height: 100vh;
-
-
     background: rgba(31, 27, 44, 0.8);
     border-radius: 15px;
     margin-left: 70px;
@@ -111,19 +113,18 @@ body {
 
 }
 
-
-
 .dados_p {
+    width: 100%;
+    margin: 0 5em 0 5em;
 
-    text-decoration: none;
+}
+
+.dados_p > h1{
+    width: 100%;
     font-family: 'Baloo Thambi 2';
     font-style: normal;
     font-size: 32px;
-    outline: none;
-    line-height: 1.5;
     color: #16FC92;
-    margin-left: 130px;
-
 }
 
 .esquerda-form-cadastro {
@@ -205,48 +206,11 @@ body {
     border-radius: 8px;
     font-family: 'Baloo Thambi 2';
     font-size: 20px;
-
+    font-weight: 900;
 }
 
 
 
 ::placeholder {
     color: #FFFFFF;
-}
-
-@media only screen and (max-width:960px) {
-   
-    .BoxCadastro {
-        width: 80vw;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .esquerda-form-cadastro>input {
-        width: 20em;
-        
-    }
-    .tem-conta-conect {
-        margin-left: 100px;
-    }
-    .dados_p{
-        margin-right: 200px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .termo{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        font-size: 12px;
-        width: auto;
-    }
-    .bt{
-        width: 12vw;
-        font-size: 12px;
-    }
 }
