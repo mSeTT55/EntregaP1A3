@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/body.css">
+    <link rel="stylesheet" href="/CSS/menu_superior.css">
     <link rel="stylesheet" href="CSS_FAQ.css">
     <title>Contatos</title>
 </head>
@@ -15,16 +17,19 @@
                     <img class="img-logo" src="\imgs\Logo.png" alt="Imagem da Logo">     
                 </div>
                 <div class="text-direita">
-                    <a href="">Inicial</a>
+                    <a href="">SÉRIES</a>
+                    <a href="/Pag_minhaLista/index.html">MINHA LISTA</a>
+                    <a href="/FAQ/FAQ.html">CONTATO</a>
                 </div>
             </div>
             <div class="usuario">
-                <div class="user-esquerda">
-                    <p>Nome do Usuário</p>
-                </div>
-                <div class="user-direita">
-                    <img class="img-user" src="\imgs\boneco-perfil.png" alt="Imagem do Usuário">
-                </div>
+                <div>
+                    <button onclick="dropdown()" class="dropbtn">MINHA CONTA</button>
+                    <div id="dropdown-content" class="dropdown-content">
+                        <a href="/editar_perfil/editar_perfil.html">Perfil</a>
+                        <a href="#">Sair</a>
+                    </div>
+                </div>    
             </div>
         </div>
         <!--Aqui termina toda parte do menu superior-->
@@ -63,7 +68,8 @@
                     </div>
                </div>
             </div>
-      </div>       
+        </div>       
     </div>            
 </body>
+    <script src="/JavaScript/buttonDropdown.js"></script>   
 </html>
