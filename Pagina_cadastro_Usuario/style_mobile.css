@@ -76,3 +76,14 @@
         font-size: 15px;
     }
 }
+
+@media only screen and (max-width:350px){
+    .img-logo {
+        width: 60vw;
+    }
+
+    .bt {
+        width: 40vw;
+        font-size: 10px;
+    }
+}
