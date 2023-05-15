@@ -35,65 +35,45 @@
     display: flex;
 }
 
+
 .caixa-itens {
-    flex-direction: column;
-    align-items: center;
-    justify-content: baseline;
-    display: flex;
-    position: relative;
-
-}
-
-.tabela-series > div{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-     position: relative;
+    padding: 2.5em;
+    overflow: auto;
+    flex-wrap:wrap;
 }
 
-.linhas-tab > div {
-    padding:2%;
-    display: flex;
-    position: relative;
-    padding-bottom: 0px;
+/*Aqui se encontra cada card das series*/
 
-    
-}
-
-.linha1-intern{
-    flex-direction: column;
-    align-items: center;
-}    
-.div-botton {
-    
+.series{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: 0 0.5em 2.5em 0.5em;
+}
+
+.conteudo_serie{
+    width: 10em;
+    height: 18em;
+    display: flex;
     align-items: center;
-    margin-top: 5%;
-    
-   
-}
-.img-botton{
-    width: auto;
-    height: auto;  
-
+    flex-direction: column;
 }
 
-.img-marg{
-    margin-right: 5%;
+.conteudo_serie > img, p , div{
+    margin: 0;
+    margin-bottom: 15px;
 }
-.nome-serie {
-    
-   margin: 4px;
+
+.img_serie{
+    width: 8em;
+    border-radius: 15px;
+}
+
+.conteudo_serie > p {
     font-family: 'Baloo Thambi',cursive;
-    font-size: 13px;
-    color: white;   
-}
+    color: white;
 
-.linha3 > div{
-    display: flex;
-   padding-left: 3%;
-   width: 135,16px;
 }
