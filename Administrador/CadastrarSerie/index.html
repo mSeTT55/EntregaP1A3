@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/CSS/menu_superior.css">
     <link rel="stylesheet" href="/CSS/ParteInferior.css">
     <link rel="stylesheet" href="/CSS/Parteinferiorcomparteroxa.css">
-    <link rel="stylesheet" href="/Administrador/CadastrarPlataforma/CadastroPlataforma.css">
-    <title>Cadastrar Plataforma</title>
+    <link rel="stylesheet" href="/Administrador/CadastrarSerie/style.css">
+    <title>Cadastrar Séries</title>
 </head>
 <body>
     <div class="main">
@@ -24,7 +24,6 @@
                     <a href="">SÉRIES</a>
                     <a href="/Pag_minhaLista/index.html">MINHA LISTA</a>
                     <a href="/FAQ/FAQ.html">CONTATO</a>
-                    <a href="/FAQ/FAQ.html">PAINEL DE CONTROLE</a>
                 </div>
             </div>
             <div class="usuario">
@@ -41,56 +40,53 @@
         <div class="conteudo-principal-lista" id="conteudoprincipalLista">
             <div class="text-botoes">
                 <div>
-                    <h1 class="minhalista">Cadastrar Plataforma</h1>
+                    <h1 class="minhalista">Cadastrar Séries</h1>
                 </div>
-                
-            </div>    
+                <div>
+                </div>
+            </div>
             <div class="conteiner-maior">
                 <div class="caixa-itens">
                     <div>
-                    <div>
-                       <p class="nome-h2">Novo</p>
+                       <p class="nome-h2">Dados Pessoais</p>
                      </div>
                      <div class="itens-tab">
-                        <div class="linha1">    
+                       <form>
+                          <div class="input-box">
+                          <input type="text" name="nome" id= "edit_nome" placeholder="   Nome">
+                          </div>
+                          <div class="input-box">
+                           <input type="text" name="sobrenome" id= "edit_sobren" placeholder="   Sobrenome">
+                          </div>
+                        <div class="input-box">
+                            <input type="email" name="email" id="" placeholder="   E-mail">
+                        </div>
+                        <div>
+                        <button class="bt1" id="" type="submit">Confirmar</button>
+                        </div>
+                      </form>
+                   </div>
+
+                   <div> 
+                      <p class="nome-h2">Trocar Senha</p>
+                   </div>                            
+                   <div class="itens-tab">
+                       <form>  
                             <div class="input-box">
-                            <input type="text" name="nome" id= "plat_nome" placeholder="   Digite o nome da plataforma de streaming"> 
+                            <input type="password" name="novasenha" id= "edit_novasenha" placeholder="   Nova Senha">
                             </div>
-                         </div> 
-                            <div class="linha1" >  
                             <div class="input-box">
-                                <input type="text" name="inserir-img" id= "plat_img" placeholder="   Selecionar imagem da TAG da plataforma">  
-                            </div> 
+                            <input type="password" name="senhaatual" id= "edit_senhaatual" placeholder="   Senha Atual">
                             </div>
                             <div>
-                                <span class="text-span"> Cadastro realizado com sucesso!</span>  
+                            <button class="bt1" id="" type="submit">Confirmar</button>
                             </div>
-                            <div> 
-                                <button class="bt1" id="" type="submit">Cadastrar</button>
-                            </div>
-                      </div>                         
+                        </form> 
                     </div>
-                    
-                    <div class="setorb">
-                       <div class="graf-title">
-                          <p class="nome-h3">Lista de Plataformas</p> 
-                       </div>   
-                        <div class="container-graf">
-                          <div class="cabec-graf">
-                            <div><p>código</p></div>
-                            <div><p>Nome</p></div>
-                            <div><p>TAG</p></div>
-                          </div>
-                          <div class="corpo-graf">
-                            <p> Inserção do banco de dados</p>
-                          </div>
-                        </div>
-                     </div>
-                    </div>
+                </div>
             </div>
-     
-            </div>
-      </div>       
-    </div>            
+        </div>
+    </div>
 </body>
+    <script src="/JavaScript/buttonDropdown.js"></script>
 </html>
