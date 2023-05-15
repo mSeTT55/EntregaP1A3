@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/imgs/img-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+/*Aqui começa o menu superior*/
+
+.menu-superior {
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-superior>div {
+    width: 50%;
+    height: 100%;
+
+}
+
+.img-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-text>div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.img-logo {
+    position: relative;
+    width: 12vw;
+    top: 5%;
+}
+
+.text-direita {
+    padding: 15px;
+}
+
+.text-direita a {
+    text-decoration: none;
+    font-family: 'Graduate', cursive;
+    font-style: normal;
+    font-size: 20px;
+    outline: none;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+
+    justify-content: right;
+}
+
+.user-esquerda {
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+    font-family: 'Graduate', cursive;
+}
+
+.user-esquerda>p {
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+
+.user-direita {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-user {
+    width: 4vw;
+    border-radius: 50px;
+}
+
+/*Aqui termina o menu superior*/
+
+.conteudo-principal {
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    flex-direction: column;
+}
+
+.titulo-pag P {
+    font-family: 'Baloo 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 102px;
+    display: flex;
+    align-items: center;
+    margin-right: 700px;
+
+    color: #16FC92;
+}
+
+.nome-h1 {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Graduate', cursive;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0%;
+    margin-top: 20px;
+}
+
+
+
+.sub-title {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    font-family: 'Graduate', cursive;
+    color: white;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0%;
+    margin-bottom: 30px;
+}
+
+.conteudo-pag {
+    display: flex;
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container-cinza {
+    padding-top: 15px;
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    background: #1F1B2C;
+    opacity: 80%;
+    border-radius: 20px;
+    overflow-y: auto;
+
+}
+
+.container-cinza>div {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+
+}
+
+
+.titulo-form {
+    display: flex;
+    justify-content: left;
+    font-family: 'Baloo 2', cursive;
+    color: #16FC92;
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 20px;
+
+
+}
+
+
+
+.img-logo {
+    width: 12vw;
+    border-radius: 60px;
+    margin: 20px;
+
+}
+
+.cabecalho {
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.nome-h2 {
+    padding-top: 1%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    color: #16FC92;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+
+/* inicio das configurações dos inputs*/
+
+.cx-msg {
+    width: 400px;
+    height: 63px;
+    left: 250px;
+    top: 288px;
+
+    font-family: 'Baloo 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 52px;
+    display: flex;
+
+
+    color: #16FC92;
+}
+
+
+.caixa-msg>textarea {
+    width: 600px;
+    height: 548px;
+    margin-left: 5px;
+
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 15px;
+}
+
+
+.bt1 {
+
+    font-family: 'Baloo 2', cursive;
+    width: 340px;
+    height: 41px;
+    left: 104px;
+    top: 371px;
+    margin-left: 5%;
+    border-radius: 13px;
+    margin-top: 20px;
+    background: #514769;
+   
+
+
+}
+
+.bt2 {
+    font-family: 'Baloo 2', cursive;
+    width: 340px;
+    height: 41px;
+    left: 104px;
+    margin-top: 40px;
+    background: #514769;
+    border-radius: 13px;
+    margin-left: 5%;
+    
+}
+
+.bt3{
+    font-family: 'Baloo 2', cursive;
+    width: 200px;
+    height: 41px;
+    
+    margin-left: 15%;
+    background: #16FC92;
+    border-radius: 13px;
+    margin-top: 70px;
+    font-size: 24px;
+}
+.barra-cx {
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: 600px;
+    height: 50px;
+    margin-top: -555px;
+
+    background: #514769;
+    border: 1px solid #16FC92;
+    border-radius: 14px;
+}
+
+.nomes-cx-msg {
+    
+    margin-left: 70px;
+    width: 600px;
+    height: 50px;
+    gap: 64px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+
+    color: #FFFFFF;
+}
+
+.nomes-cx-msg-dados {
+    
+    margin-left: 60px;
+    width: 600px;
+    height: 50px;
+    gap: 80px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+::placeholder{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+

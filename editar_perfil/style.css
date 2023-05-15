@@ -68,7 +68,7 @@
 
 .input-box > input{
     box-sizing: border-box;
-    width: 50vw;
+    width: 337px;
     height: 5vh;
     background: #514769;
     border: 1px solid #16FC92;
@@ -81,7 +81,7 @@
 }
 
 .bt1 {
-    width: 15vw;
+    width: 160px;
     height: 5vh;
     background: #16FC92;
     font-family: 'Baloo Thambi 2';
@@ -96,6 +96,6 @@
 
 ::placeholder {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 13px;
     text-align: left;
 }
