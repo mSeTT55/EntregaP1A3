@@ -1,37 +1,17 @@
-@media only screen and (min-width:2679px){
-    
-    .esquerda{
-        width: 40%;
-        max-width: 2655px;
-    }
-
-    .texto1, .texto-membro{
-        max-width: 700px;
-    }
-    
-    .bts-acesso{
-        max-width: 700px;
-    }
-
-    .botoes{
-        margin-left: 6%;
-        max-width: 60%;
-    
-    }
-    
+@media only screen and (min-width:2400px){
     .nome-ou::before,.nome-ou::after {
         top: 0.55em;
-        width: 8vw;
-        max-width: 6vw;
+        width: 100px;
         height: 0.50vh;
         background-color: white;
-        left: 60px;
+        left: 40px;
 }
     .nome-ou::after {
         left: initial;
-        right: 60px;
+        right: 40px;
     }
 }
+
 
 
 @media only screen and (min-width:1827px){
@@ -57,15 +37,14 @@
     
     .nome-ou::before,.nome-ou::after {
         top: 0.55em;
-        width: 8vw;
-        max-width: 6vw;
+        width: 130px;
         height: 0.50vh;
         background-color: white;
-        left: 60px;
+        left: 50px;
 }
     .nome-ou::after {
         left: initial;
-        right: 60px;
+        right: 50px;
     }
 }
 
