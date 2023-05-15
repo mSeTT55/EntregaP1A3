@@ -6,21 +6,18 @@
 
 
 @media only screen and (max-width:540px){
+    
+    .main-login{
+        flex-direction: column;
+        overflow: auto;
+    }
+    
     .sessao-superior{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-
-    .main-login{
-        flex-direction: column;
-    }
-
-    .sessao-superior {
         align-items: center;
-        height: 25%;
-        
+        height: 30%;
     }
 
     .logo-img {
@@ -29,34 +26,47 @@
     }
 
     .sessao-inferior {
-        height: 75%;
+        height: 70%;
+        align-items: start;
     }
 
     .card-login{
-        width: 80%;
+        width: 90%;
+        height: 95%;
+        padding: 20px;
     }
 
-    .textfield > input {
-        font-size: 10pt;
+    .card-login > h1 {
+        font-size: 25px;
+        margin: 0px;
     }
+
+    .textfield > input, label {
+        font-size: 10px;
+        margin: 0.5px;
+    }
+
+   
+
+    .textfield > label {
+        font-size: 15px;
+        margin: 2px;
+    }
+
 
     .btn-entrar{
-        width: 65%;
+        width: 50%;
+        height: 14%;
+        margin: 10px;
         font-size: 8pt;
     }
 
     .cardlogin-botoes-inferiores{
         font-size: 9px;
         width: 100%;
-        height: 100%;
+        height: 20%;
         font-weight: 300;
         font-size: 12pt;
-    }
-
-
-    .cardlogin-botoes-inferiores{
-        font-size: 14px;
-        
     }
 }
 
