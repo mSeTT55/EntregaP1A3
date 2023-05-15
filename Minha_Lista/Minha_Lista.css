@@ -22,7 +22,7 @@
     color: #16FC92;
     font-style: normal;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .desejoassistir {
@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 
-/*Itens da direita Vazio---------------------------------------------------------------*/
+/*Itens da direita Vazio de Desejo Assistir---------------------------------------------------------------*/
 
 .direita-itens-vazio{
     width: 85%;
