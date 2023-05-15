@@ -1,0 +1,139 @@
+/*Aqui começa a parte text-botoes*/
+
+.text-botoes{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-botoes > div {
+    padding-top: 1%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    font-family: 'Baloo 2', cursive; 
+    margin-left: 7%;
+}
+
+.minhalista{
+    color: #16FC92;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+}
+
+
+/*Aqui termina toda parte text-botoes*/
+
+/*Aqui comeca o conteudo que vai englobar os itens*/
+
+.conteiner-maior{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.caixa-itens{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2%;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(31, 27, 44, 0.8);
+    border-radius: 20px;
+    overflow-y: auto; 
+}
+/* titulo da caixa */
+.nome-h2 {
+    padding-top: 1%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Baloo 2',cursive;
+    color: #16FC92;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+    margin-left: 5%; 
+    margin-bottom: 2%; 
+}
+
+    
+.bt1 {
+    width: 20vW;
+    height: 5vh;
+    background: #16FC92;
+    font-family: 'Baloo Thambi',cursive;
+    font-size: 12px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+    font-weight: 900;
+    margin-left: 5%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.bt2 {
+    width: 20vW;
+    height: 5vh;
+    background: red;
+    font-family: 'Baloo Thambi',cursive;
+    font-size: 12px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: 900;
+    margin-left: 5%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.linha1 {
+    
+    flex-direction: row;
+    display: flex;
+    margin: 0px;
+   
+    
+}
+
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.linha3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.text-user{
+    color: white;
+    font-weight: 900;
+    font-family: 'Baloo',cursive;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 20px;
+    margin: 0px;
+    
+}
+
+
+    
+
+
+

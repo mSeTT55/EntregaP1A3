@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/body.css">
+    <link rel="stylesheet" href="/CSS/menu_superior.css">
+    <link rel="stylesheet" href="/CSS/ParteInferior.css">
+    <link rel="stylesheet" href="/CSS/Parteinferiorcomparteroxa.css">
+    <link rel="stylesheet" href="/perfil/style.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <div class="main">
+        <div class="menu-superior">
+            <div class="img-text">
+                <div class="img-esquerda">
+                    <a href="/Minha_Lista/Minha_Lista.html">
+                    <img class="img-logo" src="\imgs\Logo.png" alt="Imagem da Logo">
+                    </a>     
+                </div>
+                <div class="text-direita">
+                    <a href="">SÉRIES</a>
+                    <a href="/Pag_minhaLista/index.html">MINHA LISTA</a>
+                    <a href="/FAQ/FAQ.html">CONTATO</a>
+                </div>
+            </div>
+            <div class="usuario">
+                <div>
+                    <button onclick="dropdown()" class="dropbtn">MINHA CONTA</button>
+                    <div id="dropdown-content" class="dropdown-content">
+                        <a href="/perfil/index.html">Perfil</a>
+                        <a href="#">Sair</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!--Aqui termina toda parte do menu superior-->
+        <div class="conteudo-principal-lista" id="conteudoprincipalLista">
+            <div class="text-botoes">
+                <div>
+                    <h1 class="minhalista">Perfil</h1>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div class="conteiner-maior">
+                <div class="caixa-itens">
+                    <div>
+                       <p class="nome-h2">Meus Dados</p>
+                     </div>
+                     <div class="linha1">
+                          <div class="text-user">
+                             <p class="marg-para">Nome:</p>
+                          </div>
+                          <div class="text-user">
+                              <p class="marg-para">Usuário Teste</p>
+                          </div>
+                     </div>
+
+                     <div class="linha2">
+                        <div class="text-user">
+                           <p>Email:</p>
+                        </div>
+                        <div class="text-user">
+                            <p class="marg-text">usuario_234@gmail.com</p>
+                        </div> 
+                    </div>
+
+                    <div class="linha3">
+                        <div class="input-box">
+                            <button class="bt1" id="" type="submit">Editar Perfil</button>
+                        </div>
+                        <div class="input-box">
+                            <button class="bt2" id="" type="submit">Encerrar Conta</button>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="/JavaScript/buttonDropdown.js"></script>
+</html>
