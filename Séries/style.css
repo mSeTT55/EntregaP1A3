@@ -65,7 +65,7 @@
 }
 
 .img_serie{
-    width: 8em;
+    width: 6.5em;
     border-radius: 15px;
 }
 
@@ -73,4 +73,8 @@
     font-family: 'Baloo Thambi',cursive;
     color: white;
 
+}
+
+.img-star{
+    width: 8em;
 }
