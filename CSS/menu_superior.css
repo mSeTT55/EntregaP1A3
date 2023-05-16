@@ -87,6 +87,11 @@
     padding-right: 15px;
 }
 
+.usuario2{
+    display: none;
+    padding-right: 15px;
+}
+
 
 .usuario > div > button{
     height: 35px;
