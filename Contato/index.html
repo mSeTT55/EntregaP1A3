@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/body.css">
     <link rel="stylesheet" href="/CSS/menu_superior.css">
-    <link rel="stylesheet" href="CSS_FAQ.css">
+    <link rel="stylesheet" href="/CSS/menu_superior_mobile.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
     <title>Contatos</title>
 </head>
 <body>
@@ -17,9 +19,9 @@
                     <img class="img-logo" src="\imgs\Logo.png" alt="Imagem da Logo">     
                 </div>
                 <div class="text-direita">
-                    <a href="">SÉRIES</a>
-                    <a href="/Pag_minhaLista/index.html">MINHA LISTA</a>
-                    <a href="/FAQ/FAQ.html">CONTATO</a>
+                    <a href="/Séries/index.html">SÉRIES</a>
+                    <a href="/Minha_Lista/index.html">MINHA LISTA</a>
+                    <a href="index.html">CONTATO</a>
                 </div>
             </div>
             <div class="usuario">
@@ -43,27 +45,25 @@
             </div>
             <div class="conteudo-pag">
                 <div class="container-cinza">
-                    <div>
+                    <div class="container-esquerda">
                         <div>
                             <p class="nome-h2">Nova Mensagem</p>
                         </div>
                         <form>
                             <div class="input-box">
                                 <input type="text" name="nome" id= "contat_nome" placeholder="   Nome">                       
-                            </div>
-                            <div class="input-box">
                                 <input type="email" name="email" id="contat_email" placeholder="   E-mail">
                             </div>
                             <div class="caixa-msg">
-                                <textarea name="mensagem" id="contat_mensag">   Escreva aqui</textarea>
+                                <textarea name="mensagem" id="contat_mensag" placeholder="Escreva aqui"></textarea>
                             </div>
-                            <div class="input-box">
-                            <button class="bt1" id="" type="submit">Enviar Mensagem</button>
-                            <button class="bt2" id="" type="submit">Limpar</button>
+                            <div class="botoes">
+                                <button class="bt1" id="" type="submit">Enviar Mensagem</button>
+                                <button class="bt2" id="" type="submit">Limpar</button>
                             </div>
                         </form>
                     </div>
-                    <div>
+                    <div class="container-direita">
 
                     </div>
                </div>
