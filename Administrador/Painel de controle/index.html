@@ -47,6 +47,7 @@
             </div>    
             <div class="conteiner-maior">
                 <div class="caixa-itens">
+                    <div class="setor-a">
                     <div>
                     <div>
                        <p class="nome-h2">Novo</p>
@@ -54,10 +55,10 @@
                      <div class="itens-tab">
                         <div class="linha1">    
                             <div> 
-                                <button class="bt1" id="" onclick="mudarPagina1">CADASTRAR SÉRIES</button>
+                                <button class="bt1" id="" onclick="mudarPagina1()">CADASTRAR SÉRIES</button>
                             </div>
                             <div> 
-                                <button class="bt1" id="" onclick="mudarPagina2">CADASTRAR PLATAFORMAS</button>
+                                <button class="bt1" id="" onclick="mudarPagina2()">CADASTRAR PLATAFORMAS</button>
                             </div>
                          </div> 
                          <br>
@@ -83,23 +84,46 @@
                             </div>  
                         </div>
 
-                         </div>
-                            
-                      </div>                         
+                    </div>
+                       </div>                         
                     </div>
                     
                     <div class="setorb">
                        <div class="graf-title">
-                          <p class="nome-h3">Lista de Plataformas</p> 
+                          <p class="nome-h3">Lista de Mensagem</p> 
                        </div>   
                         <div class="container-graf">
                           <div class="cabec-graf">
-                            <div><p>código</p></div>
-                            <div><p>Nome</p></div>
-                            <div><p>TAG</p></div>
+                            <div class="col1">
+                                <p>cód</p>
+                            </div>
+                            <div class="col2">
+                                <p>Nome</p>
+                            </div>
+                            <div class="col3">
+                                <p>Email</p>
+                            </div>
+                            <div class="col4">
+                                <p>Mensagem</p>
+                            </div>
                           </div>
                           <div class="corpo-graf">
-                            <p> Inserção do banco de dados</p>
+                            <div class="col1-1">
+                                <p>001</p>
+                            </div>
+                            <div class="col2-1">
+                                <p>  Mario Bros</p>
+                            </div>
+                            <div class="col3-1">
+                                <p>brotherprincess@...</p>
+                             </div>   
+                                <div class="col4-1">
+                                    <p>Baseaado em fatos...</p>
+                                </div>
+                                <div class="lixeira">
+                                    <img src="/imgs/trash1.png" alt="">
+                                </div>
+                            </div>
                           </div>
                         </div>
                      </div>
@@ -118,5 +142,8 @@
     function mudarPagina2() {
         window.location.href = "/Administrador/CadastrarPlataforma/index.html";
     }
+    
 </script>
+
+<script src="/JavaScript/buttonDropdown.js"></script>
 </html>

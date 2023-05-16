@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_mobile.css">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="/Pagina_cadastro_Usuario/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap" rel="stylesheet">
 
@@ -29,35 +28,62 @@
             </div>
         </div>
         <!--Aqui termina toda parte do menu superior-->
-        <div class="dados_p">
-            <h1>DADOS PESSOAIS</h1>
-        </div>
-        <div class="BoxCadastro">
-            <form class="esquerda-form-cadastro" action="">
-
-                <input type="text" name="nome" placeholder="Nome">
-                <input type="text" name="sobrenome" placeholder="Sobrenome">
-                <input type="email" name="email" placeholder="E-mail">
-                <input type="password" name="novasenha" placeholder="Nova Senha">
-                <input type="password" name="repetirsenha" placeholder="Repetir Senha">
-                <div class="tem-conta-conect">
-                    <p>Já tem uma conta <a href="/Login/index.html">Conect-se</a></p>
+          <div class="conteudo-principal-lista" id="conteudoprincipalLista">
+            <div class="text-botoes">
+                <div>
+                    <h1 class="minhalista">Dados Pessoais</h1>
                 </div>
-                <div class="termo">
-                    <input type="checkbox" name="termo">
-                    <p class="texttermo">Declaro que as informações fornecidas são completas, verdadeiras, sendo total
-                        responsabilidade do USUÁRIO a atualização dos dados sempre que houver modificação de quaisquer
-                        dados
-                        pessoais.</p>
+                <div>
                 </div>
-               
-                <button class="bt" type="submit">FINALIZAR CADASTRO</button>
-                
-            </form>
-
-
+            </div>
+            <div class="conteiner-maior">
+                <div class="caixa-itens">
+                    <div class="marg">
+                     <div class="itens-tab">
+                       <form>
+                          <div class="input-box">
+                          <input type="text" name="nome" id= "edit_nome" placeholder="   Nome">
+                          </div>
+                          <div class="input-box">
+                           <input type="text" name="sobrenome" id= "edit_sobren" placeholder="   Sobrenome">
+                          </div>
+                        <div class="input-box">
+                            <input type="email" name="email" id="" placeholder="   E-mail">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" name="senha" id="" placeholder="   Nova Senha">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" name="repitirsenha" id="" placeholder="   Repetir Senha">
+                        </div>
+                        <div class="input-box">
+                           <span> </span>
+                        </div>
+                        <div class="conect">
+                            <div class="tem-conta-conect">
+                                <p>Já tem uma conta</p>
+                            </div>
+                            <div class="tem-conta-conect">
+                                <a href="">Conecte-se</a>
+                            </div>
+                        </div>
+                        <div class="termo">
+                            <input type="checkbox" name="termo">
+                            <p class="texttermo">Declaro que as informações fornecidas são completas, verdadeiras, sendo total
+                                responsabilidade do USUÁRIO a atualização dos dados sempre que houver modificação de quaisquer
+                                dados
+                                pessoais.</p>
+                                </div>
+                        <div>
+                        <button class="bt1" id="" type="submit">Finalizar Cadastro</button>
+                        </div>
+                      </form>
+                   </div>
+                </div>
+                 </div>
+            </div>
         </div>
     </div>
 </body>
-
+    <script src="/JavaScript/buttonDropdown.js"></script>
 </html>

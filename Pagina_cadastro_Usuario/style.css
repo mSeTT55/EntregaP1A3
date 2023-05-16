@@ -1,40 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+/*Aqui começa a parte text-botoes*/
 
-
-body {
-
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Noto Sans', sans-serif;
-    overflow: auto;
+.text-botoes{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
 }
 
-* {
-    box-sizing: border-box;
+.text-botoes > div {
+    padding-top: 1%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Baloo 2', cursive; 
+    margin-left: 7%
+}
+
+.minhalista{
+    color: #16FC92;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
     margin: 0;
-    padding: 0;
 }
 
-.main {
-    width: 100vw;
-    height: 100vh;
+
+/*Aqui termina toda parte text-botoes*/
+
+/*Aqui comeca o conteudo que vai englobar os itens*/
+
+.conteiner-maior{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.caixa-itens{
     display: flex;
     flex-direction: column;
-    background-image: url("/imgs/img-fundo.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: auto;
+    position: relative;
+     width: 90%;
+    height: 100%;
+    background-color: rgba(31, 27, 44, 0.8);
+    border-radius: 20px;
+    overflow-y: auto; 
+}
+/* titulo da caixa */
+.nome-h2 {
+    padding-top: 1%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Baloo 2',cursive;
+    color: #16FC92;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0%;
+    margin-left: 5%; 
+    margin-bottom: 2%; 
+}
+/* area de formatação dos inputs */
+
+.input-box > input{
+    box-sizing: border-box;
+    width: 337px;
+    height: 5vh;
+    background: #514769;
+    border: 1px solid #16FC92;
+    border-radius: 8px;
+    font-family: 'Baloo Thambi 2';
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 5%;
+
 }
 
+.bt1 {
+    width: 240px;
+    height: 5vh;
+    background: #16FC92;
+    font-family: 'Baloo Thambi 2';
+    font-size: 16px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+    font-weight: 900;
+    margin-left: 15%;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 9%;
+}
 
-/*-------------------------------------------------------------------------------*/
+::placeholder {
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: left;
+}
+.marg{
+    display: flex;
+    margin-top: 2%;
 
-/*Aqui começa o menu superior*/
+}
+
+.termo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    width: 45vw;
+    height: 65px;
+    margin-top:2%;
+    font-size: 12px;
+    font-family: 'Baloo Thambi 2';
+    color: #FFFFFF;
+    font-weight: 700;
+    justify-content: top;
+}    
+
+.tem-conta-conect {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    padding: 1%;
+}
+
+.tem-conta-conect a {
+
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #16FC92;
+}
+
+.conect{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   width: 340px;
+    justify-content: right;
+
+}/*Aqui começa o menu superior*/
 
 .menu-superior {
     width: 100%;
@@ -45,21 +160,16 @@ body {
     flex-direction: row;
 }
 
+
+
+
+
 .img-text {
     display: flex;
-    width: 50%;
     flex-direction: row;
 }
 
-.img-esquerda {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-direita {
+.img-text>div {
     width: 50%;
     height: 100%;
     display: flex;
@@ -79,138 +189,12 @@ body {
 
 .direita {
     display: flex;
-    width: 50%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
 }
 
-.direita>p {
-    text-decoration: none;
-    font-family: 'Graduate', cursive;
-    font-style: normal;
-    font-size: 30px;
-    outline: none;
-    line-height: 1.5;
-    color: #FFFFFF;
-
-}
 
 
 /*Aqui termina o menu superior*/
-
-/*-------------------------------------------------------------------------------*/
-
-.BoxCadastro {
-    width: 90vw;
-    height: 100vh;
-    background: rgba(31, 27, 44, 0.8);
-    border-radius: 15px;
-    margin-left: 70px;
-    padding-top: 50px;
-
-
-}
-
-.dados_p {
-    width: 100%;
-    margin: 0 5em 0 5em;
-
-}
-
-.dados_p > h1{
-    width: 100%;
-    font-family: 'Baloo Thambi 2';
-    font-style: normal;
-    font-size: 32px;
-    color: #16FC92;
-}
-
-.esquerda-form-cadastro {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-
-.esquerda-form-cadastro>input {
-    width: 35vw;
-    padding: 8px;
-    margin: 6px;
-    border-radius: 10px;
-    border-color: #16FC92;
-    border-width: 2px;
-    font-weight: 600;
-    color: #FFFFFF;
-    background-color: #514769;
-    font-size: 15px;
-    font-family: 'Baloo Thambi 2', cursive;
-    outline: none;
-}
-
-
-
-.termo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 24px;
-    width: 40vw;
-    height: 70px;
-    margin-top: 24px;
-    font-family: 'Baloo Thambi 2';
-}
-
-.texttermo {
-    color: #FFFFFF;
-    margin-left: 12px;
-
-}
-
-.tem-conta-conect p {
-
-    left: 355px;
-    top: 591px;
-
-    font-family: 'Baloo Thambi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFFFFF;
-
-}
-
-.tem-conta-conect {
-    margin-left: 300px;
-}
-
-.tem-conta-conect a {
-
-    font-family: 'Baloo Thambi 2', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    color: #16FC92;
-}
-
-.bt {
-
-    width: 328px;
-    height: 41px;
-    margin-top: 26px;
-    background: #16FC92;
-    border-radius: 8px;
-    font-family: 'Baloo Thambi 2';
-    font-size: 20px;
-    font-weight: 900;
-}
-
-
-
-::placeholder {
-    color: #FFFFFF;
-}
