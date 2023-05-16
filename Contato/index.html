@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/CSS/body.css">
     <link rel="stylesheet" href="/CSS/menu_superior.css">
     <link rel="stylesheet" href="/CSS/menu_superior_mobile.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-mobile.css">
+    <link rel="stylesheet" href="/Contato/style.css">
+    <link rel="stylesheet" href="/Contato/style-mobile.css">
     <title>Contatos</title>
 </head>
 <body>
@@ -48,40 +48,40 @@
         </div>
         <!--Aqui termina toda parte do menu superior-->
 
-        <div class="conteudo-principal">
-            <div class="titulo-pag">
+        <div class="conteudo-principal-lista" id="conteudoprincipalLista">
+            <div class="text-botoes">
                 <div>
-                    <p class="nome-h1">Deixe aqui sua opnião, mande nos uma mensagem</p>
-                    <p class="sub-title"> O prazo de resposta de sua solicitação é até 3 dias</p>
-                </div>                
+                    <p class="sub-title1">Deixe aqui sua opnião, mande nos uma mensagem</p>
+                    <p class="sub-title2">O prazo de resposta de sua solicitação é até 3 dias</p>
+                </div>
+                <div>
+                </div>
             </div>
-            <div class="conteudo-pag">
-                <div class="container-cinza">
-                    <div class="container-esquerda">
-                        <div>
-                            <p class="nome-h2">Nova Mensagem</p>
+            <div class="conteiner-maior">
+                <div class="caixa-itens">
+                    <div class="setor-A">
+                        <p class="nome-h2">Nova Mensagem</p>
+                    </div>
+                    <form>
+                        <div class="input-box">
+                            <input type="text" name="nome" id= "contat_nome" placeholder="   Nome">                       
+                       </div>
+                        <div class="input-box">
+                            <input type="email" name="email" id="contat_email" placeholder="   E-mail">
                         </div>
-                        <form>
-                            <div class="input-box">
-                                <input type="text" name="nome" id= "contat_nome" placeholder="   Nome">                       
-                                <input type="email" name="email" id="contat_email" placeholder="   E-mail">
-                            </div>
-                            <div class="caixa-msg">
-                                <textarea name="mensagem" id="contat_mensag" placeholder="Escreva aqui"></textarea>
-                            </div>
-                            <div class="botoes">
-                                <button class="bt1" id="" type="submit">Enviar Mensagem</button>
-                                <button class="bt2" id="" type="submit">Limpar</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="container-direita">
-
-                    </div>
-               </div>
+                        <div class="input-box">
+                            <textarea name="mensagem" id="contat_mensag" placeholder="Escreva aqui"></textarea>
+                        </div>
+                        <div class="botoes">
+                            <button class="bt1" id="" type="submit">Enviar Mensagem</button>
+                            <button class="bt2" id="" type="submit">Limpar</button>
+                        </div>
+                    </form>
+                </div>
+                </div>
             </div>
-        </div>       
-    </div>            
+        </div>
+    </div>
 </body>
-    <script src="/JavaScript/buttonDropdown.js"></script>   
+    <script src="/JavaScript/buttonDropdown.js"></script>
 </html>

@@ -1,3 +1,65 @@
+/*Aqui começa a parte text-botoes*/
+
+.text-botoes{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-botoes > div {
+    padding-top: 1%;
+    margin-left: 7%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Baloo 2', cursive; 
+}
+
+.minhalista{
+    color: #16FC92;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+/*Aqui termina toda parte text-botoes*/
+
+/*Aqui comeca o conteudo que vai englobar os itens*/
+
+.conteiner-maior{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.caixa-itens{
+
+    display: flex;
+    flex-direction: column;
+    top: 2%;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(31, 27, 44, 0.8);
+    border-radius: 20px;
+    position: relative;
+    overflow:auto;
+    
+    
+    
+}
+
+
+
 .titulo-pag{
     display: flex; 
     width: 100%; 
@@ -20,16 +82,27 @@
     font-size: 22px;
 }
 
-.sub-title  {
+.sub-title1  {
     padding-top: 1%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     font-family: 'Graduate', cursive;
     color: white;
     font-style: normal;
-    font-size: 14px;
+    font-size: 24px;
+    margin: 0px;
+}
+.sub-title2  {
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Graduate', cursive;
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    margin: 0px;
 }
 
 .conteudo-pag{
@@ -42,30 +115,6 @@
 
 }
 
-.container-cinza{
-    padding: 10px;
-    width: 90%;
-    height: 98%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1F1B2C;
-    opacity: 80%;
-    border-radius: 20px;
-    
-}
-
-.container-esquerda{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    max-width: 900px;
-}
-
-.container-direita{
-    width: 30%;
-    
-}
 
 
 .cabecalho{
@@ -84,81 +133,79 @@
     align-items: center;
     font-family: 'Baloo 2',cursive;
     color: #16FC92;
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 24px;
     margin: 0%;
-    margin-bottom: 2%;  
+    margin-left: 5%; 
+    margin-bottom: 10px; 
 }
 
 /* inicio das configurações dos inputs*/
 
 .input-box > input{
-box-sizing: border-box;
-width: 60%;
-height: 60px;
-background: #514769;
-border: 1px solid #16FC92;
-border-radius: 8px;
-font-family: 'Baloo Thambi 2';
-font-size: 16px;
-color: white;
-margin-bottom: 12px;
-
-}
-
-.caixa-msg{
-    height: 180px;
-}
-
-
-.caixa-msg > textarea{
     box-sizing: border-box;
-    width: 60%;
-    height: 100%;
+    width: 337px;
+    height: 5vh;
     background: #514769;
     border: 1px solid #16FC92;
     border-radius: 8px;
     font-family: 'Baloo Thambi 2';
     font-size: 16px;
     color: white;
-    margin-bottom: 4%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    
+}
+
+
+
+.input-box > textarea{
+    box-sizing: border-box;
+    width: 337px;
+    height: 150px;
+    background: #514769;
+    border: 1px solid #16FC92;
+    border-radius: 8px;
+    font-family: 'Baloo Thambi 2';
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 5%;
 }
 
 .botoes {
-    height: 100px;
     display: flex;
     align-items: center;
+    
 }
-
-
 .bt1 {
-    width: 20%;
-    height: 50%;
-    border-radius: 10px;
-    background-color: #16FC92;
+    width: 150px;
+    height: 5vh;
+    background: #16FC92;
     font-family: 'Baloo Thambi 2';
     font-size: 16px ;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     color: black;
     font-weight: 900;
-    
-}
-.bt2 {
-    width: 20%;
-    height: 50%;
-    background: #ff0202;
-    font-family: 'Baloo Thambi 2';
-    font-size: 16px;
-    border-radius: 10px;
-    color: black;
-    cursor: pointer;
-    font-weight: 900;
-    margin-left: 4%;
+    margin-left: 5%;
+    border-radius: 8px;
 }
 
-.bt1 :hover {
-    background-color: #042a11;
+.bt2 {
+    width: 150px;
+    height: 5vh;
+    background: red;
+    font-family: 'Baloo Thambi 2';
+    font-size: 16px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: 900;
+    margin-left: 3%;
+    border-radius: 8px;
 }
+
 
 
 ::placeholder {
