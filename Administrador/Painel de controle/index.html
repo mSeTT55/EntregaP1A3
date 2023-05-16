@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/CSS/menu_superior.css">
     <link rel="stylesheet" href="/CSS/ParteInferior.css">
     <link rel="stylesheet" href="/CSS/Parteinferiorcomparteroxa.css">
-    <link rel="stylesheet" href="/Administrador/CadastrarPlataforma/style.css">
-    <title>Cadastrar Plataforma</title>
+    <link rel="stylesheet" href="/Administrador/Painel de controle/style.css">
+    <title>Painel de Controle</title>
 </head>
 <body>
     <div class="main">
@@ -21,17 +21,17 @@
                     </a>     
                 </div>
                 <div class="text-direita">
-                    <a href="">SÉRIES</a>
-                    <a href="/Pag_minhaLista/index.html">MINHA LISTA</a>
-                    <a href="/FAQ/FAQ.html">CONTATO</a>
-                    <a href="/FAQ/FAQ.html">PAINEL DE CONTROLE</a>
+                    <a href="/Séries/index.html">SÉRIES</a>
+                    <a href="/Minha_Lista/index.html">MINHA LISTA</a>
+                    <a href="/Contato/index.html">CONTATO</a>
+                    <a href="/Administrador/Painel de controle/index.html">PAINEL DE CONTROLE</a>
                 </div>
             </div>
             <div class="usuario">
                 <div>
                     <button onclick="dropdown()" class="dropbtn">MINHA CONTA</button>
                     <div id="dropdown-content" class="dropdown-content">
-                        <a href="/editar_perfil/editar_perfil.html">Perfil</a>
+                        <a href="/perfil/index.html">Perfil</a>
                         <a href="#">Sair</a>
                     </div>
                 </div>    
@@ -41,7 +41,7 @@
         <div class="conteudo-principal-lista" id="conteudoprincipalLista">
             <div class="text-botoes">
                 <div>
-                    <h1 class="minhalista">Cadastrar Plataforma</h1>
+                    <h1 class="minhalista">Painel de Controle</h1>
                 </div>
                 
             </div>    
@@ -53,21 +53,38 @@
                      </div>
                      <div class="itens-tab">
                         <div class="linha1">    
-                            <div class="input-box">
-                            <input type="text" name="nome" id= "plat_nome" placeholder="   Digite o nome da plataforma de streaming"> 
-                            </div>
-                         </div> 
-                            <div class="linha1" >  
-                            <div class="input-box">
-                                <input type="text" name="inserir-img" id= "plat_img" placeholder="   Selecionar imagem da TAG da plataforma">  
-                            </div> 
-                            </div>
-                            <div>
-                                <span class="text-span"> Cadastro realizado com sucesso!</span>  
+                            <div> 
+                                <button class="bt1" id="" onclick="mudarPagina1">CADASTRAR SÉRIES</button>
                             </div>
                             <div> 
-                                <button class="bt1" id="" type="submit">Cadastrar</button>
+                                <button class="bt1" id="" onclick="mudarPagina2">CADASTRAR PLATAFORMAS</button>
                             </div>
+                         </div> 
+                         <br>
+                         <div class="cont-dados">
+                            <div class="tab-title">
+                                <p class="format-p-tit"> Indicadores</p>
+                            </div>
+                            <div class="tab-1">
+                                <div class=tab-1-1>
+                                    <p class="format-p-tit">QTD de Séries:  </p>
+                                </div>
+                                <div class="tab-1-2">
+                                    <p class="format-p-tit">47</p>
+                                </div>
+                            </div> 
+                             <div class="tab-1">
+                                <div class="tab-1-1">
+                                    <p class="format-p-tit"> QTD de Plataformas:  </p>
+                                </div>
+                                <div class="tab-1-2">
+                                    <p class="format-p-tit"> 67</p>
+                                </div>
+                            </div>  
+                        </div>
+
+                         </div>
+                            
                       </div>                         
                     </div>
                     
@@ -93,4 +110,13 @@
       </div>       
     </div>            
 </body>
+
+<script>
+    function mudarPagina1() {
+        window.location.href = "/Administrador/CadastrarSerie/index.html"; 
+        }
+    function mudarPagina2() {
+        window.location.href = "/Administrador/CadastrarPlataforma/index.html";
+    }
+</script>
 </html>
