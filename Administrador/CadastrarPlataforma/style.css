@@ -137,6 +137,21 @@
     
 
 }
+
+.bt2 {
+    width: 160px;
+    height: 5vh;
+    background: red;
+    font-family: 'Baloo Thambi 2';
+    font-size: 16px ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: 900;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+
 .text-span {
     padding-top: 1%;
     display: flex;
