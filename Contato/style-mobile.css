@@ -68,6 +68,10 @@
 }
 
 @media only screen and (max-width:350px){
+    .container-cinza{
+        height: 105%;
+    }
+    
     .nome-h1{
         font-size: 10px;
         text-align: center;
