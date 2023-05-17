@@ -79,6 +79,8 @@
 
     
 .bt1 {
+    text-align: center;
+    text-decoration: none;
     width: 160px;
     height: 5vh;
     background: #16FC92;
@@ -93,6 +95,8 @@
 }
 
 .bt2 {
+    text-align: center;
+    text-decoration: none;
     width: 160px;
     height: 5vh;
     background: red;
