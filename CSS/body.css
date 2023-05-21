@@ -21,7 +21,7 @@ body * {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("/imgs/img-fundo.jpg");
+    background-image: url("/EntregaP1A3/imgs/img-fundo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

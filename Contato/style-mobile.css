@@ -1,89 +1,52 @@
-@media only screen and (max-width:540px){
-    .titulo-pag{
-        padding-left: 3px;
-        padding-right: 3px;
+@media only screen and (max-width:540px) {
+    .text-botoes{
+        text-align: center;
     }
     
-    .nome-h1{
-        font-size: 16px;
-        text-align: center;
+    .title1{
+        font-size: 20px;
+    }
+    
+    .title2{
+        font-size: 18px;
     }
 
-    .sub-title{
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .container-esquerda{
+    .form-esquerda{
         width: 100%;
         height: 100%;
-    }
-
-
-    .container-direita{
-        display: none;
-    }
-
-    .container-esquerda > div{
-        margin-top: 2%;
-        height: 14%;
-    }
-
-    .nome-h2{
-        font-size: 24px;
-    }
-
-    .input-box{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        padding: 5%;
     }
 
-    .input-box > input{
+    .form-esquerda > p {
+        font-size: 20px;
+    }
+
+    .form-esquerda > input, textarea {
         width: 100%;
-        height: 40px;
     }
 
-    .caixa-msg > textarea{
+    .form-esquerda > div {
         width: 100%;
     }
-    
-    .botoes{
-        justify-content: center;
-    }
 
-    .bt1, .bt2 {
-        width: 40%;
-        font-size: 10px ;
-        height: 40%;
-    } 
-
-    
-
-    ::placeholder {
-        color: #FFFFFF;
-        font-size: 12px;
-        
+    .form-esquerda > div > button{
+        width: 100%;
     }
 }
 
-@media only screen and (max-width:350px){
-    .container-cinza{
-        height: 105%;
+@media only screen and (max-width:360px){
+    .text-botoes{
+        padding: 10px;
+    }
+
+    .title1{
+        font-size: 15px;
     }
     
-    .nome-h1{
+    .title2{
         font-size: 10px;
-        text-align: center;
-    }
-
-    .sub-title{
-        font-size: 8px;
-        text-align: center;
     }
 }
-
-
-
-
 
