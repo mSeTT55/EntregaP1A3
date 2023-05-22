@@ -31,29 +31,32 @@
                 <div>
                     <h1 class="minhalista">Nova Conta</h1>
                 </div>
-                <div>
-                </div>
+               
             </div>
             <div class="conteiner-maior">
                 <div class="caixa-itens">
                     <div class="marg">
                      <div class="itens-tab">
-                       <form id="Cadastro" >
+                       <form id="Cadastro" onsubmit="" >
                           <div class="input-box">
-                          <label for="nome">Nome:</label>
-                          <input type="text" name="nome" id= "edit_nome" placeholder="   Nome">
+                          <label for="nome">Nome</label>
+                          <input type="text" name="nome" id= "edit_nome" placeholder="   Digite seu nome">
                           </div>
                           <div class="input-box">
-                           <input type="text" name="sobrenome" id= "edit_sobren" placeholder="   Sobrenome">
+                            <label for="sobrenome">Sobrenome</label>
+                           <input type="text" name="sobrenome" id= "edit_sobren" placeholder="   Digite seu sobrenome">
                           </div>
                         <div class="input-box">
-                            <input type="email" name="email" id="" placeholder="   E-mail">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="" placeholder="   Digite um e-mail válido">
                         </div>
                         <div class="input-box">
-                            <input type="password" name="senha" id="" placeholder="   Nova Senha">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="" placeholder="   Digite sua senha">
                         </div>
                         <div class="input-box">
-                            <input type="password" name="repitirsenha" id="" placeholder="   Repetir Senha">
+                            <label for="repetir">Repetir Senha</label>
+                            <input type="password" name="repitirsenha" id="" placeholder="   Confirme a sua senha">
                         </div>
                         <div class="input-box">
                            <span> </span>
@@ -63,18 +66,20 @@
                                 <p>Já tem uma conta</p>
                             </div>
                             <div class="tem-conta-conect">
-                                <a href="">Conecte-se</a>
+                                <a href="/Login/index.html">Conecte-se</a>
                             </div>
                         </div>
                         <div class="termo">
+                            <div class="check">
                             <input type="checkbox" name="termo">
-                            <p class="texttermo">Declaro que as informações fornecidas são completas, verdadeiras, sendo total
-                                responsabilidade do USUÁRIO a atualização dos dados sempre que houver modificação de quaisquer
-                                dados
-                                pessoais.</p>
-                                </div>
-                        <div>
-                        <button class="bt1" id="" type="submit">CRIAR CONTA</button>
+                            </div>
+                            <div>
+                            <p>Declaro que as informações fornecidas são completas, verdadeiras, sendo total
+                                responsabilidade do USUÁRIO.</p>
+                            </div>
+                        </div>
+                        <div class="bt1">
+                        <button id="enviar_cad" type="submit">CRIAR CONTA</button>
                         </div>
                       </form>
                    </div>

@@ -1,5 +1,12 @@
 @media only screen and (max-width:540px) {
 
+    .minhalista{
+        color: #16FC92;
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 19px;
+        margin: 0;
+    }
 
     .img-text {
         width: 100%;
@@ -85,5 +92,87 @@
     .bt {
         width: 40vw;
         font-size: 10px;
+    }
+    .minhalista{
+        color: #16FC92;
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .img-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direita, .text-direita {
+        display: none;
+    }
+
+    .img-logo {
+        width: 30vw;
+    }
+
+
+    .BoxCadastro{
+        margin: 1em;
+        
+    }
+
+    .dados_p {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+    }
+
+
+    .dados_p > h1{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .BoxCadastro{
+        padding: 5px;
+    }
+    
+    .esquerda-form-cadastro{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .esquerda-form-cadastro>input {
+        width: 80%;
+        
+    }
+    .tem-conta-conect {
+        margin: 0;
+    }
+    .dados_p{
+        margin-right: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .termo{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        width: auto;
+    }
+    .bt{
+        width: 50%;
+        font-size: 15px;
     }
 }
