@@ -19,7 +19,7 @@ body * {
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    background-image: url("/EntregaP1A3/imgs/img-fundo.jpg");
+    background-image: url("/imgs/img-fundo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
