@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="/CSS/ParteInferior.css">
     <link rel="stylesheet" href="/CSS/Parteinferiorcomparteroxa.css">
     <link rel="stylesheet" href="/Pagina_cadastro_Usuario/style.css">
+    <link rel="stylesheet" href="/Pagina_cadastro_Usuario/style_mobile.css">
     <title>Cadastre-se</title>
 </head>
 <body>
     <div class="main">
-        <div class="menu-superior1">
+        <div class="menu-superior">
                 <div class="img-esquerda">
-                    <a href="/Minha_Lista/Minha_Lista.html">
                     <img class="img-logo" src="/imgs/logo.png" alt="Imagem da Logo">
                     </a>     
                 </div>
@@ -23,71 +23,42 @@
                     <p>Seu Gerenciador de Lista de séries</p>
                 </div>
         </div>
-                      
-        
         <!--Aqui termina toda parte do menu superior-->
-          <div class="conteudo-principal-lista" id="conteudoprincipalLista">
+        <div class="conteudo-principal-lista" id="conteudoprincipalLista">
             <div class="text-botoes">
-                <div>
-                    <h1 class="minhalista">Dados Pessoais</h1>
+                <div id="minhalista">
+                    <h1>Cadastro do Usuário</h1>
                 </div>
-               
             </div>
             <div class="conteiner-maior">
                 <div class="caixa-itens">
-                    <div class="marg">
-                     <div class="itens-tab">
-                       <form id="Cadastro" onsubmit="" >
-                          <div class="input-box">
-                          <label for="nome">Nome</label>
-                          <input type="text" name="nome" id= "edit_nome" placeholder="   Digite seu nome">
-                          </div>
-                          <div class="input-box">
-                            <label for="sobrenome">Sobrenome</label>
-                           <input type="text" name="sobrenome" id= "edit_sobren" placeholder="   Digite seu sobrenome">
-                          </div>
-                        <div class="input-box">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="" placeholder="   Digite um e-mail válido">
-                        </div>
-                        <div class="input-box">
-                            <label for="senha">Senha</label>
-                            <input type="password" name="senha" id="" placeholder="   Digite sua senha">
-                        </div>
-                        <div class="input-box">
-                            <label for="repetir">Repetir Senha</label>
-                            <input type="password" name="repitirsenha" id="" placeholder="   Confirme a sua senha">
-                        </div>
-                        <div class="input-box">
-                           <span> </span>
-                        </div>
+                    <form class="esquerda-form" id="esquerda-form" onsubmit="" >
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" name="sobrenome" id= "edit_sobren" placeholder="   Digite seu sobrenome">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="" placeholder="   Digite um e-mail válido">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="" placeholder="   Digite sua senha">
+                        <label for="repetir">Repetir Senha</label>
+                        <input type="password" name="repitirsenha" id="" placeholder="   Confirme a sua senha">
                         <div class="conect">
-                            <div class="tem-conta-conect">
-                                <p>Já tem uma conta</p>
-                            </div>
-                            <div class="tem-conta-conect">
-                                <a href="/Login/index.html">Conecte-se</a>
-                            </div>
+                            <p>Já tem uma conta</p>
+                            <a href="/Login/index.html">Conecte-se</a>
                         </div>
                         <div class="termo">
-                            <div class="check">
-                            <input type="checkbox" name="termo">
-                            </div>
-                            <div>
+                            <input class="check" type="checkbox" name="termo">
                             <p>Declaro que as informações fornecidas são completas, verdadeiras, sendo total
                                 responsabilidade do USUÁRIO.</p>
-                            </div>
                         </div>
                         <div class="bt1">
-                        <button id="enviar_cad" type="submit">CRIAR CONTA</button>
+                            <button id="enviar_cad" type="submit">CRIAR CONTA</button>
                         </div>
-                      </form>
-                   </div>
+                    </form>
+                    <div class="direita-form">
+                    </div>
                 </div>
-                 </div>
             </div>
         </div>
     </div>
 </body>
-    <script src="/JavaScript/buttonDropdown.js"></script>
 </html>

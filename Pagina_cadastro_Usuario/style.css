@@ -1,43 +1,14 @@
-/*Aqui começa a parte text-botoes*/
-.menu-superior1{
-    width: 100%;
-    height: 12vh;
-    background-color: black;
-    white-space: nowrap;
+.menu-text{
     display: flex;
-    flex-direction: row;
-    margin: 0;
-}
-
-.text-botoes{
-    width: 100%;
-    height: 13vh;
-    display: flex;
-    flex-direction: row;
-}
-
-.text-botoes > div {
-    padding-top: 1%;
-    width:100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    width: 80%;
     align-items: center;
-    font-family: 'Baloo 2', cursive; 
-    margin-left: 7%
+    justify-content: center;
+    padding-left: 35%;
+    font-size: 22px;
+    font-family: 'Graduate';
+    color: #FFFFFF;
+
 }
-
-.minhalista{
-    color: #16FC92;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    margin: 0;
-}
-
-
-/*Aqui termina toda parte text-botoes*/
 
 /*Aqui comeca o conteudo que vai englobar os itens*/
 
@@ -46,62 +17,124 @@
     height: 80%;
     display: flex;
     justify-content: center;
-    position: relative;
+}
+
+#minhalista{
+    font-weight: 300px;
+    font-size: 19px;
+    color: #16FC92;
 }
 
 .caixa-itens{
     display: flex;
-    flex-direction: column;
-    position: relative;
-     width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     height: 100%;
     background-color: rgba(31, 27, 44, 0.8);
     border-radius: 20px;
     overflow-y: auto; 
 }
-/* titulo da caixa */
-.nome-h2 {
-    padding-top: 1%;
+
+.esquerda-form {
     display: flex;
+    width: 50%;
+    padding: 0 0 0 2%;
+    flex-direction: column;
     justify-content: left;
-    align-items: center;
-    font-family: 'Baloo 2',cursive;
-    color: #16FC92;
-    font-weight: 600;
-    font-size: 22px;
-    margin: 0%;
-    margin-left: 5%; 
-    margin-bottom: 2%; 
 }
+
+.direita-form{
+    width: 50%;
+}
+
 /* area de formatação dos inputs */
 
-.input-box > input{
+input{
     box-sizing: border-box;
-    width: 337px;
-    height: 5vh;
+    width: 70%;
+    height: 2.5em;
     background: #514769;
     border: 1px solid #16FC92;
     border-radius: 8px;
     font-family: 'Baloo Thambi 2';
-    font-size: 16px;
+    font-size: 12px;
     color: white;
-    margin-bottom: 8px;
-    
-
+    margin-bottom: 0.5em;
 }
 
-.input-box {
-    
+label {
     font-family: 'Baloo Thambi 2';
-    font-size: 13px;
+    font-size: 12px;
     color: white;
-    margin-left: 5%;
     display: flex;
-    flex-direction: column;
     font-weight: 900;
-    align-items: left;
+    margin-bottom: 0.5em;
 }
 
+::placeholder {
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: left;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.conect{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.conect > p {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    margin: 0 3% 0 0;
+}
+
+.conect > a {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #16FC92;
+    margin: 0px;
+}
+
+.termo {
+    width: 70%;
+    height: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+
+.termo > p{
+    font-size: 12px;
+    font-family: 'Baloo Thambi 2';
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0.5%;
+}
+
+.check {
+    width: 10px;
+}
+
+.bt1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
 
 .bt1 > button{
     width: 160px;
@@ -113,128 +146,6 @@
     transition: background-color 0.3s ease;
     color: black;
     font-weight: 900;
-    margin-left: 80px;
     border-radius: 8px;
     justify-content: center;
-    margin-top: 7px;
-    margin-bottom: 5px;
-
 }
-
-::placeholder {
-    color: #FFFFFF;
-    font-size: 11px;
-    text-align: left;
-    font-style: italic;
-    opacity: 0.8;
-}
-.marg{
-    display: flex;
-    margin-top: 1%;
-
-}
-
-.termo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 350px;
-    height: 60px;
-    font-size: 12px;
-    font-family: 'Baloo Thambi 2';
-    color: #FFFFFF;
-    font-weight: 700;
-    justify-content: center;
-    
-} 
-
-.check {
-    margin-right: 3%;
-    margin-left: 7%;
-}
-.tem-conta-conect > p {
-    font-family: 'Baloo Thambi 2', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    color: white;
-    padding: 3%;
-    margin: 0px;
-    display: flex;
-    width: 120px;
-    justify-content: right;
-}
-
-.tem-conta-conect a {
-
-    font-family: 'Baloo Thambi 2', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #16FC92;
-    margin: 0px;
-}
-
-.conect{
-  
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    justify-content: right;
-
-}/*Aqui começa o menu superior*/
-
-.menu-superior {
-    width: 100%;
-    height: 12vh;
-    background-color: black;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: row;
-}
-
-.img-text {
-    display: flex;
-    flex-direction: row;
-}
-
-.img-text>div {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-logo {
-    position: relative;
-    width: 12vw;
-    top: 5%;
-}
-
-.text-direita {
-    padding-right: 40%;
-}
-
-.direita {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.menu-text{
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    font-family: 'Graduate';
-    color: #FFFFFF;
-    width: 80%;
-    justify-content: Right;
-    margin-right: 5%;
-}
-
-
-/*Aqui termina o menu superior*/
